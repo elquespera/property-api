@@ -1,19 +1,264 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-        },
-        {
-            "id": 2,
-            "title": "qui est esse",
-            "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
-        },
-        {
-            "id": 3,
-            "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-            "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
-        }
+    "properties": [
+      {
+        "id": "prop_234we",
+        "title": "Luxury Villa",
+        "address": "5678 North Bayshore Drive, Miami, FL",
+        "price": 2000000,
+        "rooms": "4",
+        "availableFrom": 1698393600000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=342"
+      },
+      {
+        "id": "prop_frs23",
+        "title": "Beachfront Condo",
+        "address": "123 West Road, Santa Monica, CA",
+        "price": 5000,
+        "rooms": "1",
+        "availableFrom": 1704076800000,
+        "purpose": "rent",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=567"
+      },
+      {
+        "id": "prop_56gfd",
+        "title": "Cozy Cabin",
+        "address": "456 Lakeview Terrace, Lake Tahoe, NV",
+        "price": 150000,
+        "rooms": "2",
+        "availableFrom": 1706764800000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=890"
+      },
+      {
+        "id": "prop_42asd",
+        "title": "City Apartment",
+        "address": "789 South Street, New York, NY",
+        "price": 8000,
+        "rooms": "3",
+        "availableFrom": 1709452800000,
+        "purpose": "rent",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=234"
+      },
+      {
+        "id": "prop_72gsf",
+        "title": "Mountain View Mansion",
+        "address": "1011 Mountain View Drive, Aspen, CO",
+        "price": 4000000,
+        "rooms": "7",
+        "availableFrom": 1712131200000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=567"
+      },
+      {
+        "id": "prop_ndk37",
+        "title": "Lakefront Cottage",
+        "address": "1212 Lakeview Road, Branson, MO",
+        "price": 120000,
+        "rooms": "2",
+        "availableFrom": 1714723200000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=890"
+      },
+      {
+        "id": "prop_dfh43",
+        "title": "Beach House",
+        "address": "556 Ocean Ave, Laguna Beach, CA",
+        "price": 10000,
+        "rooms": "4",
+        "availableFrom": 1717401600000,
+        "purpose": "rent",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=456"
+      },
+      {
+        "id": "prop_928sk",
+        "title": "Penthouse Suite",
+        "address": "987 Park Ave, San Francisco, CA",
+        "price": 15000,
+        "rooms": "3",
+        "availableFrom": 1720080000000,
+        "purpose": "rent",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=123"
+      },
+      {
+        "id": "prop_48ggt",
+        "title": "Ranch Style Home",
+        "address": "222 Prairie Lane, Bozeman, MT",
+        "price": 300000,
+        "rooms": "4",
+        "availableFrom": 1722672000000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=234"
+      },
+      {
+        "id": "prop_pbk32",
+        "title": "Hilltop Hideaway",
+        "address": "369 Pioneer Road, Sedona, AZ",
+        "price": 2500000,
+        "rooms": "6",
+        "availableFrom": 1725350400000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=567"
+      },
+      {
+        "id": "prop_kf37s",
+        "title": "Modern Loft",
+        "address": "555 Main St, Los Angeles, CA",
+        "price": 6000,
+        "rooms": "1",
+        "availableFrom": 1728038400000,
+        "purpose": "rent",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=890"
+      },
+      {
+        "id": "prop_39nnv",
+        "title": "Spanish Style Home",
+        "address": "2468 Pacific Ave, San Diego, CA",
+        "price": 1800000,
+        "rooms": "5",
+        "availableFrom": 1730716800000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=123"
+      },
+      {
+        "id": "prop_89yhj",
+        "title": "Cape Cod House",
+        "address": "777 Shore Rd, Cape Cod, MA",
+        "price": 500000,
+        "rooms": "3",
+        "availableFrom": 1733308800000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=234"
+      },
+      {
+        "id": "prop_34vns",
+        "title": "European Villa",
+        "address": "2222 Tuscany Drive, Lago Vista, TX",
+        "price": 3000000,
+        "rooms": "6",
+        "availableFrom": 1735987200000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=567"
+      },
+      {
+        "id": "prop_bb092",
+        "title": "Ski Chalet",
+        "address": "1234 Mountain Lane, Vail, CO",
+        "price": 800000,
+        "rooms": "3",
+        "availableFrom": 1738665600000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=890"
+      },
+      {
+        "id": "prop_hn53y",
+        "title": "Beach Cottage",
+        "address": "555 Seashell Blvd, Destin, FL",
+        "price": 300000,
+        "rooms": "2",
+        "availableFrom": 1741257600000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=123"
+      },
+      {
+        "id": "prop_3mcnv",
+        "title": "Contemporary Condo",
+        "address": "1111 Elm St, Chicago, IL",
+        "price": 9000,
+        "rooms": "2",
+        "availableFrom": 1743936000000,
+        "purpose": "rent",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=456"
+      },
+      {
+        "id": "prop_k8b7t",
+        "title": "Estate Home",
+        "address": "3333 Park Lane, Dallas, TX",
+        "price": 5000000,
+        "rooms": "8",
+        "availableFrom": 1746528000000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=890"
+      },
+      {
+        "id": "prop_3lmnv",
+        "title": "Colonial Style Home",
+        "address": "4444 Maple St, Philadelphia, PA",
+        "price": 1300000,
+        "rooms": "6",
+        "availableFrom": 1749206400000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=123"
+      },
+      {
+        "id": "prop_29a3y",
+        "title": "Mediterranean Mansion",
+        "address": "5555 Via Appia, Beverly Hills, CA",
+        "price": 10000000,
+        "rooms": "10",
+        "availableFrom": 1751884800000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=234"
+      },
+      {
+        "id": "prop_htyy1",
+        "title": "Lake House",
+        "address": "7777 Lake Dr, Lake Geneva, WI",
+        "price": 600000,
+        "rooms": "3",
+        "availableFrom": 1754476800000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=567"
+      },
+      {
+        "id": "prop_0gfj4",
+        "title": "Sunny Home",
+        "address": "333 Sunshine Blvd, San Diego, CA",
+        "price": 1300000,
+        "rooms": "6",
+        "availableFrom": 1757155200000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=890"
+      },
+      {
+        "id": "prop_7gkj3",
+        "title": "Historic Home",
+        "address": "555 Elm St, Charleston, SC",
+        "price": 1000000,
+        "rooms": "5",
+        "availableFrom": 1759843200000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=123"
+      },
+      {
+        "id": "prop_94hsd",
+        "title": "Log Cabin",
+        "address": "1234 Pine Rd, Gatlinburg, TN",
+        "price": 500000,
+        "rooms": "3",
+        "availableFrom": 1762521600000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=234"
+      },
+      {
+        "id": "prop_nndj3",
+        "title": "Cape Cod Home",
+        "address": "7777 Shoreline Rd, Cape Cod, MA",
+        "price": 800000,
+        "rooms": "4",
+        "availableFrom": 1765113600000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=567"
+      },
+      {
+        "id": "prop_cgk75",
+        "title": "Rustic Cabin",
+        "address": "1111 Lonesome Ln, Jackson Hole, WY",
+        "price": 400000,
+        "rooms": "2",
+        "availableFrom": 1767792000000,
+        "purpose": "sale",
+        "image": "https://source.unsplash.com/random/400x600/?house&sig=890"
+      }
     ]
 }
